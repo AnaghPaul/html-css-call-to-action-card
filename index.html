@@ -1,10 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Document</title>
-  <style></style>
-</head>
-<body>
-  
-</body>
+  <head>
+    <title>Document</title>
+    <style>
+      .container {
+        text-align: left;
+        box-sizing: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        margin: 40px auto;
+        padding: 20px 50px;
+        width: 500px;
+      }
+
+      .card-description {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 19px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.45);
+      }
+
+      aside {
+        font-family: sans-serif;
+      }
+
+      aside > header > h2 {
+        color: rgba(0, 0, 0, 0.65);
+        font-weight: 100;
+        font-size: 36px;
+      }
+
+      aside > footer {
+        margin: 15px 0px;
+        font-size: 15px;
+        color: rgba(0,0,0,0.3);
+      }
+
+      .divider {
+        width: 11%;
+        border: 1px solid rgba(0, 0, 0, 1);
+      }
+
+      aside > button {
+        height: 45px;
+        background-color: #4184e1;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: whitesmoke;
+        margin: 10px 0px;
+        padding: 10px 5px;
+        width: 100%;
+        border-radius: 25px;
+        border: 0px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <aside class="container">
+      <header>
+        <h2 >
+          Build your first chatbot in 10 minutes!
+        </h2>
+      </header>
+
+      <div class="divider"></div>
+
+      <p class="card-description">
+        Have a bot answering questions from customers on your website within 10
+        minutes of signing up for ChatBot
+      </p>
+
+      <button>Try Now →</button>
+
+      <footer>
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Policy
+      </footer>
+      
+    </aside>
+  </body>
 </html>
